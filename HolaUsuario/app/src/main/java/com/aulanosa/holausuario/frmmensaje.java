@@ -16,6 +16,7 @@ public class frmmensaje extends AppCompatActivity {
 
         Bundle bundle=getIntent().getExtras();
 
-        txtMensaje.setText("Hola "+bundle.getString("Escribe tu nombre"));
+        txtMensaje.setText("Hola "+bundle.getString("Nombre")+" "+bundle.getString("Apellidos")+"\n Tus datos son:\n-DNI: "+bundle.getString("DNI")+
+                "\n-Direccion: "+bundle.get("Direccion")+"\n-Telefono: "+bundle.getString("Telefono"));
     }
 }

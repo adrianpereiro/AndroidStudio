@@ -8,14 +8,39 @@
 
     <TextView
         android:id="@+id/nombre"
-        android:text="@string/nombre"
+        android:text="@string/texto"
         android:layout_height="wrap_content"
         android:layout_width="fill_parent" />
 
     <EditText
+        android:id="@+id/TxtNombre"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
-        android:id="@+id/TxtNombre"/>
+        android:hint="Nombre" />
+
+
+    <EditText
+        android:id="@+id/TxtApellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:hint="Apellidos" />
+
+    <EditText
+    android:id="@+id/TxtDNI"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:hint="DNI" />
+
+    <EditText
+        android:id="@+id/TxtDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:hint="Direccion" />
+    <EditText
+        android:id="@+id/TxtTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:hint="Telefono" />
 
     <Button
         android:id="@+id/BtnHola"
